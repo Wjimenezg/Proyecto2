@@ -121,28 +121,5 @@ public class Material {
         return -1; // Puedes elegir un valor especial para indicar que no hay requerimientos definidos.
     }
 }
-    
-    /*public int calcularMaterialesNecesarios(String tipoSilla) {
-    int cantidadMaterialesNecesarios = 0;
-
-    // Define los requerimientos de materiales para cada tipo de silla (ajusta estos valores según tus necesidades).
-    Map<String, Integer> requerimientos = new HashMap<>();
-    requerimientos.put("Gamer", 5); // Ejemplo: 5 unidades de madera para una silla Gamer
-
-    // Verifica si el tipo de silla es válido y tiene requerimientos definidos.
-    if (requerimientos.containsKey(tipoSilla)) {
-        int cantidadRequerida = requerimientos.get(tipoSilla);
-
-        // Ahora, puedes calcular la cantidad de cada tipo de material necesario.
-        cantidadMaterialesNecesarios = cantidadRequerida * getMadera(); // Ejemplo: Madera requerida para una silla Gamer
-
-        // Realiza los cálculos para los otros tipos de materiales.
-
-        return cantidadMaterialesNecesarios;
-    } else {
-        // El tipo de silla no tiene requerimientos definidos.
-        return -1; // Puedes elegir un valor especial para indicar que no hay requerimientos definidos.
-    }
-}*/
-      
+}
 }
